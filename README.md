@@ -1,2 +1,4 @@
-# for-WillSkill
-test work for WillSkill
+Тестовое задание от организации WillSkill
+ - адаптивная верстка;
+ - SASS, GULP, JS, flexbox CSS
+ Потрачено времени 22 ч
