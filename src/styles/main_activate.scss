@@ -1,0 +1,130 @@
+.activate {
+ position: relative;
+ padding: 438px 50px 92px 64px;
+ background-color: #fcda28;
+}
+
+.activate__nootris-img {
+ position: absolute;
+ width: 49%;
+ height: auto;
+ right: 64px;
+ top: 62px;
+}
+
+.activate__title-big {
+ position: absolute;
+ top: 100px;
+ left: 64px;
+ max-height: 320px;
+ overflow: hidden;
+ font-family: "rubikbold", Arial, Helvetica, sans-serif;
+ line-height: 158px;
+ font-size: 144px;
+ color: #ffffff;
+ z-index: 1;
+}
+
+.activate__text-big {
+ margin-bottom: 110px;
+ width: 50%;
+ font-family: "rubikregular", Arial, Helvetica, sans-serif;
+
+ font-size: 24px;
+ color: #000000;
+}
+
+.activate__title-small {
+ margin-bottom: 8px;
+ width: 35%;
+ font-family: "rubikbold", Arial, Helvetica, sans-serif;
+ font-size: 36px;
+ color: #000000;
+}
+
+.activate__text-small {
+ width: 26%;
+ font-family: "rubikregular", Arial, Helvetica, sans-serif;
+ font-size: 18px;
+ color: #000000;
+}
+
+@media (max-width: 1200px) {
+ .activate {
+  padding-top: 30px;
+  padding-left: 20px;
+ }
+
+ .activate__nootris-img {
+  top: 20px;
+  right: 10px;
+  width: 40%;
+ }
+
+ .activate__title-big {
+  position: static;
+  margin-bottom: 20px;
+  max-height: none;
+  width: 62%;
+  overflow: initial;
+  font-size: 50px;
+  line-height: 50px;
+ }
+
+ .activate__text-big {
+  width: 62%;
+ }
+ .activate__text-small {
+  width: 60%;
+ }
+}
+
+@media (max-width: 1024px) {
+ .activate__title-small {
+  width: 80%;
+ }
+}
+
+@media (max-width: 768px) {
+ .activate {
+  padding: 10px;
+ }
+ .activate__nootris-img {
+  bottom: 10px;
+ }
+
+ .activate__title-big {
+  font-size: 42px;
+ }
+ .activate__text-big {
+  margin-bottom: 40px;
+  font-size: 20px;
+ }
+ .activate__title-small {
+  width: 55%;
+  font-size: 30px;
+ }
+}
+
+@media (max-width: 480px) {
+ .activate__title-big {
+  font-size: 28px;
+  line-height: 30px;
+ }
+ .activate__text-big {
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 23px;
+  width: 55%;
+ }
+ .activate__title-small {
+  width: 100%;
+  font-size: 20px;
+ }
+ .activate__text-small {
+  width: 100%;
+ }
+ .activate__nootris-img {
+  top: 5px;
+ }
+}
